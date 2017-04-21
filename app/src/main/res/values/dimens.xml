@@ -6,4 +6,5 @@
     <dimen name="dp_30">30dip</dimen>
     <dimen name="dp_40">40dip</dimen>
     <dimen name="dp_80">80dip</dimen>
+    <dimen name="dp_82">82dip</dimen>
 </resources>

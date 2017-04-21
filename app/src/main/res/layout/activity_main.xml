@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/root_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -8,6 +9,13 @@
             android:id="@+id/color_animation_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+    />
+    <io.github.trylovecatch.viewpagerdemo.LargeImageView
+            android:id="@+id/large_image_view"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/dp_82"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
     />
     <android.support.v4.view.ViewPager
             android:id="@+id/viewpager"
